@@ -20,7 +20,7 @@ function Flipbook(props) {
 
     return (
         <Document
-        file="./BER.pdf"
+        file="./Sample.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
         className='modal-90w'
         >        

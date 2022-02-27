@@ -10,7 +10,6 @@
 
 # production
 /build
-BER.pdf
 # misc
 .DS_Store
 .env.local
