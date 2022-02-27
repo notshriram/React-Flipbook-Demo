@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import '../Modal.css';
 
 function Flipbook(props) {
     const [numPages, setNumPages] = useState(null);
@@ -21,6 +22,7 @@ function Flipbook(props) {
         <Document
         file="./BER.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
+        className='modal-90w'
         >        
         <HTMLFlipBook width={500} height={707}>
             {pagesList()}

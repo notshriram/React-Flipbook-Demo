@@ -1,16 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import VerticallyCentredModal from './components/VerticallyCentredModal';
-
+import Flipbook from './components/Flipbook';
 
 
 function App() {
   return (
     <div className="App">
-      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <VerticallyCentredModal/>
+        <Flipbook/>
       </header>
     </div>
   );
